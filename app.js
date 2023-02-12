@@ -2,7 +2,7 @@ const { exec } = require('child_process');
 
 
 
-exec('git clone --depth 1 https://github.com/yt-dlp/yt-dlp.git && cd yt-dlp && ./yt-dlp.sh https://www.youtube.com/watch?v=8NBSwDEf8a8', (err, stdout, stderr) => {
+exec('git clone --depth 1 https://github.com/yt-dlp/yt-dlp.git && cd yt-dlp && ./yt-dlp.sh https://www.youtube.com/watch?v=8NBSwDEf8a8 && cp "Federal Reserve and the IRS American Dream (Animation) [8NBSwDEf8a8].webm" ../', (err, stdout, stderr) => {
 	console.log("err = "+err);
     // node couldn't execute the command
 
